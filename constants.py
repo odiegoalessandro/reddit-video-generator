@@ -1,0 +1,4 @@
+SUBREDDIT = 'tifu'
+TIME_FILTER = 'day'
+LIMIT_OF_CHARS = 500
+LANGUAGE = 'pt'
