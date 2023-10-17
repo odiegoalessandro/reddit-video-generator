@@ -9,5 +9,6 @@ def translate_text(text):
     translated_text = translator.translate(text, LANGUAGE, "en")
     return translated_text.text
 
+
 def clean_text(text):
-    return clean(text,no_emoji=True, no_punct=True, no_urls=True)
+    return clean(text, no_emoji=True, no_punct=True, no_urls=True)

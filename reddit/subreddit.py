@@ -17,8 +17,9 @@ def get_subreddit_thread(id):
     return {
         "title": post.title,
         "body": post.selftext,
-        "comment": comments 
+        "comments": comments
     }
+
 
 def get_subreddit_post(id):
     post = reddit_client.submission(id=id)
