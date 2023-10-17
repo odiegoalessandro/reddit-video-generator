@@ -13,9 +13,18 @@ def get_subreddit_thread(id):
             "body": comment.body,
             "url": f"{REDDIT_BASE_URL}{comment.permalink}"
         })
-        
+
     return {
         "title": post.title,
         "body": post.selftext,
         "comment": comments 
+    }
+
+def get_subreddit_post(id):
+    post = reddit_client.submission(id=id)
+
+    return {
+        "title": post.title,
+        "body": post.selftext,
+        "url": post.url
     }
