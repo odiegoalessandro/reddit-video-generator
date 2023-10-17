@@ -24,6 +24,14 @@ O potencial desse projeto é ilimitado. Imagine criar vídeos educacionais a par
 
 Este projeto não apenas promove a disseminação de conhecimento, informação e entreterimento, mas também a torna acessível e envolvente para um público amplo. É uma celebração da criatividade e da comunidade, onde a riqueza dos posts do Reddit ganha vida de uma forma que toca corações e mentes.
 
+### ToDo ⛏
+[x] Pegar os posts do reddit
+[x] Pegar as threads
+[x] Transformar em audio
+[] Achar os videos para background
+[] Cortar os videos de forma aleatoria baseada no tempo da soma da duração dos audios
+[] Juntar todos os conteudos e editar
+
 ### 💥 Conclusão
 
 Este projeto em Python é um exemplo impressionante de como a tecnologia pode ser usada para unir a informação e a criatividade. Também mostra a possibilidade de gerar uma renda extra com conteudo gratuito da web! 🌐🎉
