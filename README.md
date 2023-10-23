@@ -29,7 +29,8 @@ Este projeto não apenas promove a disseminação de conhecimento, informação 
 - [x] Pegar os posts do reddit
 - [x] Pegar as threads
 - [x] Transformar em audio
-- [ ] Validar o tamanho da somas dos audios
+- [x] Validar o tamanho da somas dos audios
+- [ ] Tirar os screenshots do post
 - [ ] Achar os videos para background
 - [ ] Cortar os videos de forma aleatoria baseada no tempo da soma da duração dos audios
 - [ ] Juntar todos os conteudos e editar
