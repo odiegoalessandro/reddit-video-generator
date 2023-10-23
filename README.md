@@ -35,6 +35,32 @@ Este projeto não apenas promove a disseminação de conhecimento, informação 
 - [ ] Cortar os videos de forma aleatoria baseada no tempo da soma da duração dos audios
 - [ ] Juntar todos os conteudos e editar
 
+### 🤖 Como usar
+
+Instale as dependencias do projeto:
+
+```bash
+  pip install -r requirements.txt
+```
+
+Baixe os navegadores necessarios para rodar o playwright:
+
+```bash
+  playwright install
+```
+
+Apos isso execute o `main.py` da seguinte maneira:
+
+```bash
+python main.py
+```
+
+ou
+
+```bash
+py main.py
+```
+
 ### 💥 Conclusão
 
 Este projeto em Python é um exemplo impressionante de como a tecnologia pode ser usada para unir a informação e a criatividade. Também mostra a possibilidade de gerar uma renda extra com conteudo gratuito da web! 🌐🎉
