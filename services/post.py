@@ -24,6 +24,7 @@ def process_post(post, index, GET_COMMENTS):
                       post_audio_duration} segundos.")
 
     if GET_COMMENTS:
+        # desenvolver um limitador baseado no tempo
         for comment_index, comment in enumerate(post_thread["comments"]):
             text_to_mp3(
                 filename=f"post-{index}-comment-{comment_index}", text=comment["body"])
