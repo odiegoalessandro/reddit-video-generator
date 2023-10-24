@@ -30,7 +30,9 @@ Este projeto não apenas promove a disseminação de conhecimento, informação 
 - [x] Pegar as threads
 - [x] Transformar em audio
 - [x] Validar o tamanho da somas dos audios
-- [ ] Tirar os screenshots do post
+- [x] Tirar os screenshots do post
+- [ ] Criar função assincronas de tirar os prints
+- [ ] Criar função assincrona de transformar as threads em audio
 - [ ] Achar os videos para background
 - [ ] Cortar os videos de forma aleatoria baseada no tempo da soma da duração dos audios
 - [ ] Juntar todos os conteudos e editar
