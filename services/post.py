@@ -1,17 +1,21 @@
 import os
 
+from constants import *
 from reddit.subreddit import get_subreddit_thread
 from services.log import print_observation, print_success
+from services.scraping import run_scraping
 from services.tts import text_to_mp3
 from services.utils import get_mp3_duration
 
 
-def process_post(post, index, GET_COMMENTS):
+def process_post(post, index):
     voices_path = os.path.join(os.getcwd(), "voices")
 
     post_title = f"post-{index}-title"
     post_body = f"post-{index}-body"
 
+    print(post.url)
+    run_scraping(post, index)
     post_thread = get_subreddit_thread(post.id)
 
     text_to_mp3(filename=post_title, text=post.title)
